@@ -9,7 +9,9 @@
 		<link rel="stylesheet" type="text/css" href="puzzle.css">
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
 
-		<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="raphael.js" type="text/javascript" charset="utf-8"></script>
+		<script src="puzzle.js" type="text/javascript" charset="utf-8"></script>
 <!-- 		// <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=thecrimson" type="text/javascript"></script>
 		// <script src="js/jquery-csv.min.js"></script> -->
 	<!-- 	<script src="js/jquery.affix.js" type="text/javascript" charset="utf-8"></script> -->
@@ -33,16 +35,85 @@
 
 	<body>
 <div id="cont">
-		<svg id="puzzle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+
+<svg id="puzzle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="4288px" height="2848px" viewBox="0 0 4288 2848" enable-background="new 0 0 4288 2848" xml:space="preserve">
-<!-- <image overflow="visible" width="4288" height="2848" xlink:href="designfeature2.jpg"  transform="matrix(1.0003 0 0 1.0003 0.8564 -0.936)">
-</image> -->
+<image overflow="visible" enable-background="new    " width="4288" height="2848" xlink:href="designfeature2.jpg"  transform="matrix(1.0003 0 0 1.0003 0.8574 -0.9375)">
+</image>
+<rect x="1498.077" y="-0.939" display="none" opacity="0.8" fill="#565759" width="1599.999" height="210.043"/>
+<rect x="2841.86" y="2644.617" display="none" opacity="0.4" fill="#B71E18" width="1447" height="202.442"/>
+<rect x="2841.86" y="1854.427" display="none" opacity="0.4" fill="#B71E18" width="1447" height="198.144"/>
+<rect x="0.86" y="2542.638" display="none" opacity="0.4" fill="#B71F19" width="2841" height="304.422"/>
+<rect y="701.006" display="none" opacity="0.8" fill="#565759" width="1498.077" height="199.054"/>
+<rect x="1353.86" y="1756.795" display="none" opacity="0.4" fill="#B71E18" width="1488" height="195.265"/>
+<rect x="3111.08" y="701.006" display="none" opacity="0.8" fill="#BEC0C2" width="1176.92" height="199.054"/>
+<path id="piece1" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M3111.08,2449.81
+	c0,73.431-59.521,132.96-132.95,132.96c-35.729,0-89.979-14.09-136.27-37.029v301.319H0.86v-1947h575.76
+	c-23.63,46.79-38.21,102.28-38.21,138.62c0,73.42,59.53,132.95,132.95,132.95c73.43,0,132.96-59.53,132.96-132.95
+	c0-36.34-14.58-91.83-38.21-138.62h587.75v467.96c48.32-26.05,108.16-42.35,146.58-42.35c73.42,0,132.95,59.52,132.95,132.95
+	c0,73.43-59.53,132.95-132.95,132.95c-38.42,0-98.26-16.301-146.58-42.351v402.84h674.03c-26.06,48.32-42.35,108.15-42.35,146.561
+	c0,73.43,59.52,132.95,132.95,132.95c73.42,0,132.95-59.521,132.95-132.94c0-38.42-16.301-98.25-42.351-146.57h632.771v401.83
+	c46.29-22.939,100.54-37.029,136.27-37.029C3051.56,2316.86,3111.08,2376.39,3111.08,2449.81z"/>
+<path id="piece2" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M3100.12,1445.06
+	c0,73.431-59.521,132.95-132.95,132.95c-32.939,0-81.63-11.979-125.31-31.83v405.88H2209.09
+	c26.05,48.32,42.351,108.15,42.351,146.57c0,73.42-59.53,132.94-132.95,132.94c-73.43,0-132.95-59.521-132.95-132.95
+	c0-38.41,16.29-98.24,42.35-146.561h-674.03v-402.84c48.32,26.05,108.16,42.351,146.58,42.351c73.42,0,132.95-59.521,132.95-132.95
+	c0-73.43-59.53-132.95-132.95-132.95c-38.42,0-98.26,16.3-146.58,42.35V900.06h689.76c-20.97-44.7-33.71-95.42-33.71-129.39
+	c0-73.42,59.52-132.95,132.95-132.95c73.42,0,132.95,59.53,132.95,132.95c0,33.97-12.739,84.69-33.71,129.39h599.761v443.88
+	c43.68-19.85,92.37-31.83,125.31-31.83C3040.6,1312.11,3100.12,1371.63,3100.12,1445.06z"/>
+<path id="piece3" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M4288.86,2052.57v794.489h-1447V2545.74
+	c46.29,22.939,100.54,37.029,136.27,37.029c73.43,0,132.95-59.529,132.95-132.96c0-73.42-59.521-132.949-132.95-132.949
+	c-35.729,0-89.979,14.09-136.27,37.029V2052.57h691.37c-21.29,44.96-34.25,96.25-34.25,130.51c0,73.43,59.52,132.95,132.949,132.95
+	c73.431,0,132.95-59.521,132.95-132.95c0-34.26-12.96-85.55-34.25-130.51H4288.86z"/>
+<path id="piece4" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M1221.747,448.861
+	c0,73.431,59.52,132.949,132.95,132.949c37.58,0,95.64-15.59,143.38-40.649v358.899h-731.97c23.63,46.79,38.21,102.279,38.21,138.62
+	c0,73.42-59.53,132.95-132.96,132.95c-73.421,0-132.95-59.53-132.95-132.95c0-36.341,14.58-91.83,38.21-138.62H0.856v-901h1497.22
+	v357.5c-47.74-25.061-105.801-40.65-143.38-40.65C1281.267,315.911,1221.747,375.432,1221.747,448.861z"/>
+<path id="piece5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M2826.177,406.691
+	c0,73.42,59.521,132.949,132.949,132.949c36.421,0,92.091-14.649,138.95-38.38v398.8h-855.979
+	c20.97-44.699,33.71-95.42,33.71-129.391c0-73.42-59.529-132.949-132.949-132.949c-73.431,0-132.95,59.529-132.95,132.949
+	c0,33.971,12.739,84.69,33.71,129.391h-545.54V541.161c-47.74,25.061-105.8,40.649-143.38,40.649
+	c-73.431,0-132.95-59.52-132.95-132.949c0-73.431,59.52-132.95,132.95-132.95c37.58,0,95.64,15.59,143.38,40.65v-357.5h1600v313.061
+	c-46.859-23.73-102.529-38.381-138.95-38.381C2885.696,273.741,2826.177,333.262,2826.177,406.691z"/>
+<path id="piece6" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M4288.855,900.063h-490.56
+	c28.42,49.46,46.42,113.5,46.42,153.88c0,73.42-59.521,132.949-132.95,132.949c-73.42,0-132.949-59.529-132.949-132.949
+	c0-40.38,18.01-104.42,46.42-153.88h-527.16V501.262c-46.859,23.729-102.529,38.38-138.95,38.38
+	c-73.43,0-132.949-59.529-132.949-132.949c0-73.43,59.521-132.95,132.949-132.95c36.421,0,92.091,14.65,138.95,38.381V-0.938
+	h1190.779V900.063z"/>
+<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M4288.855,900.063"/>
+<path id="piece7" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M4288.86,2052.57h-558.23
+	c21.29,44.96,34.25,96.25,34.25,130.51c0,73.43-59.52,132.95-132.95,132.95c-73.43,0-132.949-59.521-132.949-132.95
+	c0-34.26,12.96-85.55,34.25-130.51h-691.37V1546.18c43.68,19.851,92.37,31.83,125.31,31.83c73.43,0,132.95-59.52,132.95-132.95
+	c0-73.43-59.521-132.95-132.95-132.95c-32.939,0-81.63,11.98-125.31,31.83V900.06h783.38c-28.41,49.46-46.42,113.5-46.42,153.88
+	c0,73.42,59.529,132.95,132.949,132.95c73.431,0,132.95-59.53,132.95-132.95c0-40.38-18-104.42-46.42-153.88h490.561V2052.57z"/>
+<text transform="matrix(1 0 0 1 41.2822 2794.5879)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="200">Let Me Entertain You</text>
+<text transform="matrix(1 0 0 1 2878.7139 2794.5879)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="125">Open Table</text>
+<text transform="matrix(1 0 0 1 1385.0127 1900.7666)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="125">Get Out!</text>
+<text transform="matrix(1 0 0 1 2878.7139 2007.7432)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="125">Headline 4</text>
+<text transform="matrix(1 0 0 1 41.2822 844.9775)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="125">Breakfast Joints</text>
+<text transform="matrix(1 0 0 1 1528.9854 155.1147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="125">Headline 6</text>
+<text transform="matrix(1 0 0 1 3136.6631 844.9775)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="125">Headline 7</text>
+<text class="preview" data-piece="piece4" transform="matrix(1 0 0 1 41.2822 155.1147)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">consectetur adipiscing elit. </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Proin quis imperdiet augue. </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nulla vehicula venenatis malesuada. </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nam egestas pellentesque est, </tspan><tspan x="0" y="450" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">ut imperdiet erat. </tspan></text>
+<text class="preview" data-piece="piece5" transform="matrix(1 0 0 1 1528.9854 261.4907)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">adipiscing elit. Proin quis imperdiet </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">augue. Nulla vehicula venenatis </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">malesuada. Nam egestas pellentesque est, </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">ut imperdiet erat. </tspan></text>
+<text class="preview" data-piece="piece6" transform="matrix(1 0 0 1 3136.6631 155.1143)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">consectetur adipiscing elit. </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Proin quis imperdiet augue. </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nulla vehicula venenatis malesuada. </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nam egestas pellentesque est, </tspan><tspan x="0" y="450" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">ut imperdiet erat. </tspan></text>
+<text class="preview" data-piece="piece7" transform="matrix(1 0 0 1 3136.6631 1311.2808)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">consectetur adipiscing elit. </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Proin quis imperdiet augue. </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nulla vehicula venenatis malesuada. </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nam egestas pellentesque est, </tspan><tspan x="0" y="450" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">ut imperdiet erat. </tspan></text>
+<text class="preview" data-piece="piece2" transform="matrix(1 0 0 1 1674.562 1186.8916)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">consectetur adipiscing elit. </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Proin quis imperdiet augue. </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nulla vehicula venenatis malesuada. </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Nam egestas pellentesque est, </tspan><tspan x="0" y="450" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">ut imperdiet erat. </tspan></text>
+<text class="preview" data-piece="piece3" transform="matrix(1 0 0 1 3198.2568 2415.0586)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">consectetur adipiscing elit. </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="75">Proin quis imperdiet augue. </tspan></text>
+<text class="preview" data-piece="piece1" transform="matrix(1 0 0 1 78.8818 1608.0449)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="120" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">consectetur adipiscing elit. </tspan><tspan x="0" y="240" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">Proin quis imperdiet augue. </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">Nulla vehicula venenatis </tspan><tspan x="0" y="480" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">malesuada. Nam egestas</tspan><tspan x="0" y="600" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">pellentesque est, </tspan><tspan x="0" y="720" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="100">ut imperdiet erat. </tspan></text>
+</svg>
+
+
+<!-- 		<svg id="puzzle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="4288px" height="2848px" viewBox="0 0 4288 2848" enable-background="new 0 0 4288 2848" xml:space="preserve">
+<image overflow="visible" width="4288" height="2848" xlink:href="designfeature2.jpg"  transform="matrix(1.0003 0 0 1.0003 0.8564 -0.936)">
+</image>
 <defs>
     <pattern id="_image_" patternUnits="userSpaceOnUse" width="4288" height="2848">
       <image xlink:href="designfeature2.jpg" x="0" y="0" width="4288" height="2848"/>
     </pattern>
   </defs>
-<path fill="url(#_image_)" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M3111.076,2449.812
+<path fill="#FFFFFF" fill-opacity="0" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M3111.076,2449.812
 	c0,73.43-59.52,132.96-132.95,132.96c-35.729,0-89.979-14.09-136.27-37.03v301.32h-2841v-1947h575.76
 	c-23.63,46.79-38.21,102.279-38.21,138.62c0,73.42,59.53,132.95,132.95,132.95c73.43,0,132.96-59.53,132.96-132.95
 	c0-36.341-14.58-91.83-38.21-138.62h587.75v467.96c48.32-26.05,108.16-42.351,146.58-42.351c73.42,0,132.95,59.521,132.95,132.95
@@ -81,7 +152,7 @@
 	c0,32.66,11.77,80.79,31.31,124.17h-700.81v-506.39c43.68,19.85,92.37,31.83,125.31,31.83c73.431,0,132.95-59.521,132.95-132.95
 	s-59.52-132.95-132.95-132.95c-32.939,0-81.63,11.979-125.31,31.83v-443.88h783.38c-28.41,49.46-46.42,113.5-46.42,153.88
 	c0,73.42,59.53,132.95,132.95,132.95c73.43,0,132.95-59.53,132.95-132.95c0-40.38-18-104.42-46.42-153.88H4288.856z"/>
-</svg>
+</svg> -->
 
 </div>
 
