@@ -10,7 +10,13 @@ svg#puzzle {
 }
 
 path:hover
-{  
-  stroke:orange;
-  stroke-width:2;
+{
+  fill-opacity: 0.5;
 }
+
+/*path:active
+{ 
+  stroke:#FFCC00;
+  stroke-width:1;
+  fill-opacity: 0.5;
+}*/
