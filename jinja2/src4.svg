@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-
-		<title>The Harvard Crimson | Fifteen Minutes</title>
-
-		<link href="http://fonts.googleapis.com/css?family=Lato:400,700|Crimson|Colaborate" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" type="text/css" href="fonts.css">
-		<link rel="stylesheet" type="text/css" href="puzzle.css">
-		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="raphael.js" type="text/javascript" charset="utf-8"></script>
-		<script src="puzzle.js" type="text/javascript" charset="utf-8"></script>
-
-	</head>
-
-	<body>
-        <div id="cont">
-            <svg version="1.1" id="puzzle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="puzzle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1200.211px" height="796.775px" viewBox="1545.5 1168.877 1200.211 796.775"
 	 enable-background="new 1545.5 1168.877 1200.211 796.775" xml:space="preserve">
 <g>
@@ -160,44 +142,3 @@
 	</g>
 </g>
 </svg>
-            <div id="other-articles">
-                
-                <div class="article-column">
-    <div class="column-inner">
-        <h3>Food in the Square</h3>
-        <div class="articles">
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-        </div>
-    </div>
-</div>
-
-                
-                <div class="article-column">
-    <div class="column-inner">
-        <h3>Fun in the Sun</h3>
-        <div class="articles">
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-        </div>
-    </div>
-</div>
-
-                
-                <div class="article-column">
-    <div class="column-inner">
-        <h3>Third Category</h3>
-        <div class="articles">
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-            <p class="headline"><a href="#">Article 1 - This is a pretty cool read</a></p>
-        </div>
-    </div>
-</div>
-            </div>
-        </div>
-        
-    </body>
-</html>

@@ -1,0 +1,80 @@
+<svg version="1.1" id="puzzle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="4288px" height="2848px" viewBox="0 0 4288 2848" enable-background="new 0 0 4288 2848" xml:space="preserve">
+<image overflow="visible" width="4288" height="2848" xlink:href="designfeature2.jpg"  transform="matrix(1.0003 0 0 1.0003 0.8574 -0.939)">
+</image>
+<g class="piece-group" id="piece1">
+	<path class="piece" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M3111.08,2449.811
+		c0,73.431-59.521,132.959-132.95,132.959c-35.729,0-89.979-14.09-136.27-37.028v301.319H0.86v-1947h575.76
+		c-23.63,46.789-38.21,102.279-38.21,138.619c0,73.42,59.529,132.95,132.949,132.95c73.431,0,132.961-59.53,132.961-132.95
+		c0-36.34-14.58-91.83-38.211-138.619h587.75v467.959c48.32-26.05,108.16-42.35,146.58-42.35c73.42,0,132.95,59.521,132.95,132.95
+		s-59.53,132.95-132.95,132.95c-38.42,0-98.26-16.302-146.58-42.352v402.84h674.031c-26.061,48.32-42.351,108.15-42.351,146.562
+		c0,73.43,59.521,132.95,132.95,132.95c73.42,0,132.949-59.521,132.949-132.94c0-38.42-16.301-98.25-42.351-146.57h632.771v401.83
+		c46.291-22.938,100.541-37.028,136.271-37.028C3051.561,2316.86,3111.08,2376.39,3111.08,2449.811z"/>
+	<text class="headline" transform="matrix(1 0 0 1 41.2822 2794.5879)" fill="#FFFFFF" font-family="'Georgia'" font-size="260">Let Me Entertain You</text>
+	<text class="preview" transform="matrix(1 0 0 1 41.2822 1261.6299)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="80">Harvard Square has an uncanny </tspan><tspan x="0" y="96" fill="#FFFFFF" font-family="'Georgia'" font-size="80">ability to attract entertainers of </tspan><tspan x="0" y="192" fill="#FFFFFF" font-family="'Georgia'" font-size="80">different backgrounds. Unlike </tspan><tspan x="0" y="288" fill="#FFFFFF" font-family="'Georgia'" font-size="80">Boston’s Faneuil Hall, which </tspan><tspan x="0" y="384" fill="#FFFFFF" font-family="'Georgia'" font-size="80">admits performers on an </tspan><tspan x="0" y="480" fill="#FFFFFF" font-family="'Georgia'" font-size="80">audition-only basis and makes </tspan><tspan x="0" y="576" fill="#FFFFFF" font-family="'Georgia'" font-size="80">them schedule their performance </tspan><tspan x="0" y="672" fill="#FFFFFF" font-family="'Georgia'" font-size="80">times far in advance, Harvard </tspan><tspan x="0" y="768" fill="#FFFFFF" font-family="'Georgia'" font-size="80">Square does not discriminate: </tspan><tspan x="0" y="864" fill="#FFFFFF" font-family="'Georgia'" font-size="80">Performers who have never been </tspan><tspan x="0" y="960" fill="#FFFFFF" font-family="'Georgia'" font-size="80">in front of an audience before and </tspan><tspan x="0" y="1056" fill="#FFFFFF" font-family="'Georgia'" font-size="80">those who have spent their entire </tspan><tspan x="0" y="1152" fill="#FFFFFF" font-family="'Georgia'" font-size="80">careers in entertainment have </tspan><tspan x="0" y="1248" fill="#FFFFFF" font-family="'Georgia'" font-size="80">equal access to its streets.</tspan></text>
+</g>
+<g id="piece2">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M3100.12,1445.061
+		c0,73.431-59.521,132.949-132.95,132.949c-32.938,0-81.63-11.979-125.31-31.83v405.881H2209.09
+		c26.051,48.319,42.352,108.149,42.352,146.569c0,73.42-59.53,132.94-132.95,132.94c-73.431,0-132.95-59.521-132.95-132.95
+		c0-38.41,16.29-98.24,42.35-146.562h-674.029v-402.84c48.32,26.051,108.16,42.352,146.58,42.352
+		c73.42,0,132.949-59.521,132.949-132.95c0-73.43-59.529-132.95-132.949-132.95c-38.42,0-98.26,16.301-146.58,42.351V900.06h689.76
+		c-20.97-44.699-33.71-95.42-33.71-129.39c0-73.42,59.521-132.95,132.95-132.95c73.42,0,132.95,59.53,132.95,132.95
+		c0,33.97-12.739,84.69-33.71,129.39h599.761v443.88c43.68-19.85,92.37-31.829,125.31-31.829
+		C3040.6,1312.11,3100.12,1371.63,3100.12,1445.061z"/>
+	<text transform="matrix(1 0 0 1 1385.0127 1029.4097)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="105">Underfunded and</tspan><tspan x="0" y="126" fill="#FFFFFF" font-family="'Georgia'" font-size="105">Overlooked: The Plight of </tspan><tspan x="0" y="252" fill="#FFFFFF" font-family="'Georgia'" font-size="105">a Harvard Square Sculpture</tspan></text>
+	<text transform="matrix(1 0 0 1 1385.0127 1668.2813)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="75">Few students, if any, glance up and notice</tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'Georgia'" font-size="75">the massive, multi-colored stone sculpture</tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'Georgia'" font-size="75">that towers over Out of Town News-one </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'Georgia'" font-size="75">they pass nearly every day. </tspan></text>
+	<text transform="matrix(1 0 0 1 1674.562 1351.6299)" fill="#FFFFFF" font-family="'ArialMT'" font-size="75"> </text>
+	<text transform="matrix(1 0 0 1 1674.562 1636.8916)" fill="#FFFFFF" font-family="'ArialMT'" font-size="75">. </text>
+</g>
+<g id="piece3">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M4288.859,2052.57v794.488h-1447V2545.74
+		c46.291,22.938,100.541,37.029,136.271,37.029c73.43,0,132.95-59.529,132.95-132.961c0-73.42-59.521-132.948-132.95-132.948
+		c-35.729,0-89.979,14.09-136.271,37.028V2052.57h691.371c-21.291,44.96-34.25,96.25-34.25,130.51
+		c0,73.43,59.52,132.95,132.948,132.95c73.431,0,132.95-59.521,132.95-132.95c0-34.26-12.96-85.55-34.25-130.51H4288.859z"/>
+	<text transform="matrix(1 0 0 1 2878.7139 2690.6084)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="95">Open Table: Cambridge’s </tspan><tspan x="0" y="114" fill="#FFFFFF" font-family="'Georgia'" font-size="95">High-Powered Restaurant World</tspan></text>
+	<text transform="matrix(1 0 0 1 3098.0781 2390.0078)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="68">  With so many top chefs jockeying for  </tspan><tspan x="0" y="81.6" fill="#FFFFFF" font-family="'Georgia'" font-size="68">  a position, Cambridge can now lay </tspan><tspan x="0" y="163.2" fill="#FFFFFF" font-family="'Georgia'" font-size="68">claim to being a fine dining destination.</tspan><tspan x="1189.568" y="163.2" fill="#FFFFFF" font-family="'ArialMT'" font-size="68"> </tspan></text>
+</g>
+<g id="piece4">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M1221.747,448.861
+		c0,73.431,59.521,132.949,132.95,132.949c37.58,0,95.64-15.591,143.38-40.649V900.06h-731.97
+		c23.629,46.79,38.209,102.279,38.209,138.62c0,73.42-59.529,132.95-132.959,132.95c-73.422,0-132.95-59.53-132.95-132.95
+		c0-36.341,14.579-91.83,38.21-138.62H0.856v-901h1497.22v357.5c-47.74-25.061-105.801-40.649-143.381-40.649
+		C1281.268,315.911,1221.747,375.432,1221.747,448.861z"/>
+	<text transform="matrix(1 0 0 1 41.2822 719.0029)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="125">Top Five Greasy Spoon</tspan><tspan x="0" y="150" fill="#FFFFFF" font-family="'Georgia'" font-size="125">Breakfast Joints</tspan></text>
+	<text transform="matrix(1 0 0 1 41.2822 187.8652)" fill="#FFFFFF" font-family="'Georgia'" font-size="75">Whether you’re an earlier riser or you’ve  </text>
+	<text transform="matrix(1 0 0 1 41.2822 277.8652)" fill="#FFFFFF" font-family="'Georgia'" font-size="75">been out all night, sometimes the best </text>
+	<text transform="matrix(1 0 0 1 41.2822 367.8652)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="75">way to start your day is with a side</tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'Georgia'" font-size="75">of fries. </tspan></text>
+</g>
+<g id="piece5">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M2826.177,406.691
+		c0,73.42,59.521,132.948,132.949,132.948c36.421,0,92.091-14.648,138.95-38.38v398.8h-855.979
+		c20.97-44.698,33.71-95.42,33.71-129.391c0-73.42-59.529-132.949-132.949-132.949c-73.431,0-132.949,59.529-132.949,132.949
+		c0,33.971,12.738,84.69,33.71,129.391h-545.54V541.161c-47.74,25.061-105.801,40.649-143.381,40.649
+		c-73.431,0-132.949-59.521-132.949-132.949c0-73.432,59.52-132.95,132.949-132.95c37.58,0,95.641,15.59,143.381,40.649v-357.5h1600
+		v313.061c-46.859-23.73-102.529-38.381-138.95-38.381C2885.696,273.741,2826.177,333.262,2826.177,406.691z"/>
+	<text transform="matrix(1 0 0 1 1528.9854 155.1152)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="125">Get Out! Somerville and </tspan><tspan x="0" y="150" fill="#FFFFFF" font-family="'Georgia'" font-size="125">Cambridge Food Edition</tspan></text>
+	<text transform="matrix(1 0 0 1 1528.9854 425.1143)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="75">For those of you with a hankering for</tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'Georgia'" font-size="75">new eateries this side of the Charles,</tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'Georgia'" font-size="75">these are worth a visit.</tspan></text>
+</g>
+<g id="piece6">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M4288.855,900.063h-490.561
+		c28.42,49.461,46.42,113.5,46.42,153.881c0,73.42-59.521,132.948-132.95,132.948c-73.42,0-132.948-59.528-132.948-132.948
+		c0-40.381,18.01-104.42,46.42-153.881h-527.16V501.262c-46.859,23.729-102.529,38.38-138.95,38.38
+		c-73.43,0-132.949-59.528-132.949-132.948c0-73.431,59.521-132.95,132.949-132.95c36.421,0,92.091,14.65,138.95,38.381V-0.938
+		h1190.779V900.063z"/>
+	<text transform="matrix(1 0 0 1 3136.6641 719.0029)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="125">10 Questions for </tspan><tspan x="0" y="150" fill="#FFFFFF" font-family="'Georgia'" font-size="125">Dean Pfister</tspan></text>
+	<text transform="matrix(1 0 0 1 3136.6641 192.4951)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="75">Those who read the first email </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'Georgia'" font-size="75">that Interim Dean Donald H. </tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'Georgia'" font-size="75">Pfister sent to the college may </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'Georgia'" font-size="75">recall that he’s a big fanof fungi </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'Georgia'" font-size="75">jokes. But, who is Pfister really? </tspan></text>
+	<text transform="matrix(1 0 0 1 3136.6631 600.4854)" fill="#FFFFFF" font-family="'ArialMT'" font-size="75"> </text>
+	<text transform="matrix(1 0 0 1 3136.6631 690.4854)" fill="#FFFFFF" font-family="'ArialMT'" font-size="75"> </text>
+</g>
+<g id="piece7">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M4288.859,2052.57H3730.63
+		c21.29,44.96,34.25,96.25,34.25,130.51c0,73.43-59.521,132.95-132.95,132.95s-132.949-59.521-132.949-132.95
+		c0-34.26,12.961-85.55,34.25-130.51h-691.369V1546.18c43.68,19.852,92.369,31.83,125.31,31.83c73.43,0,132.95-59.52,132.95-132.949
+		c0-73.431-59.521-132.95-132.95-132.95c-32.938,0-81.63,11.979-125.31,31.83V900.06h783.379
+		c-28.409,49.46-46.42,113.5-46.42,153.88c0,73.421,59.529,132.95,132.949,132.95c73.432,0,132.95-59.53,132.95-132.95
+		c0-40.38-18-104.42-46.42-153.88h490.562V2052.57H4288.859z"/>
+	<text transform="matrix(1 0 0 1 2878.7139 2007.7432)" fill="#FFFFFF" font-family="'Georgia'" font-size="115">From Expos to the Pulitzer</text>
+	<text transform="matrix(1 0 0 1 3111.0801 1261.6299)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Georgia'" font-size="75">Ten years ago, Paul Harding was </tspan><tspan x="0" y="90" fill="#FFFFFF" font-family="'Georgia'" font-size="75">known as a talented, if demanding,</tspan><tspan x="0" y="180" fill="#FFFFFF" font-family="'Georgia'" font-size="75">Expos preceptor. Back in town this </tspan><tspan x="0" y="270" fill="#FFFFFF" font-family="'Georgia'" font-size="75">week for a reading upon the </tspan><tspan x="0" y="360" fill="#FFFFFF" font-family="'Georgia'" font-size="75">release of his second book, </tspan><tspan x="0" y="450" fill="#FFFFFF" font-family="'Georgia'" font-size="75">“Enon,” the Pulitzer Prize-winning </tspan><tspan x="0" y="540" fill="#FFFFFF" font-family="'Georgia'" font-size="75">author bore little resemblance to </tspan><tspan x="0" y="630" fill="#FFFFFF" font-family="'Georgia'" font-size="75">his former self.</tspan></text>
+</g>
+</svg>

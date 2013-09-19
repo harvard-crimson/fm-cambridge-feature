@@ -15,35 +15,46 @@
 }
 
 #piece1 .piece {
-    fill: #2f7ed8;
+    /*fill: #F78D3F;*/
+    /*fill: #31659C;*/
+    /*fill: #CC0C39;*/
+    fill: #971F43;
 }
 
 #piece2 .piece {
-    fill: #0d233a;
+    /*fill: #E6781E;*/
+    fill: #1fb1da;
 }
 
 #piece3 .piece {
-    fill: #8bbc21;
+    /*fill: #C8CF02;*/
+    fill: #1f9782;
 }
 
 #piece4 .piece {
-    fill: #910000;
+    /*fill: #F8FCC1;*/
+    fill: #6b2e50;
 }
 
 #piece5 .piece {
-    fill: #1aadce;
+    /*fill: #1693A7;*/
+    fill: #ffc354;
 }
 
 #piece6 .piece {
-    fill: #492970;
+    /*fill: #F78D3F;*/
+    /*fill: #9E74CF;*/
+    fill: #a23c14;
 }
 
 #piece7 .piece {
-    fill: #f28f43;
+    fill: #628B73;
+    /*fill: #218559;*/
+    /*fill: #D74B4B;*/
 }
 
 .piece-group > .piece {
-    fill-opacity: 0.7;
+    fill-opacity: 0.5;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -52,12 +63,12 @@
 }
 
 .piece-group > .headline {
-    font-family: 'Crimson', serif;
+    font-family: 'Colaborate Thin', serif;
 }
 
 .piece-group > .preview {
     opacity: 0;
-    font-family: Georgia, serif;
+    font-family: 'Crimson', serif;
 
     -webkit-transition: opacity .3s;
     -moz-transition: opacity .3s;
@@ -69,7 +80,7 @@
     cursor: pointer;
 }
 
-.piece-group:hover > .piece {
+#puzzle .piece-group:hover > .piece {
     fill-opacity: 0.3;
     fill: #000000;
 
