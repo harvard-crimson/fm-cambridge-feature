@@ -5,7 +5,11 @@
 	margin: 0 auto;
 }
 
-svg#puzzle {
+/*
+ *  SVG STYLES
+ */
+
+#puzzle {
 	width: 100%;
 	height: 100%;
 }
@@ -47,8 +51,13 @@ svg#puzzle {
     transition: all .3s;
 }
 
+.piece-group > .headline {
+    font-family: 'Crimson', serif;
+}
+
 .piece-group > .preview {
     opacity: 0;
+    font-family: Georgia, serif;
 
     -webkit-transition: opacity .3s;
     -moz-transition: opacity .3s;
@@ -80,26 +89,38 @@ svg#puzzle {
     transition: opacity .3s;
 }
 
-/* @-webkit-keyframes path_animation { */
-/*     0%   { opacity: 0; } */
-/*   100% { opacity: 1; } */
-/* } */
-/* @-moz-keyframes path_animation { */
-/*   0%   { opacity: 0; } */
-/*   100% { opacity: 1; } */
-/* } */
-/* @-o-keyframes path_animation { */
-/*   0%   { opacity: 0; } */
-/*   100% { opacity: 1; } */
-/* } */
-/* @keyframes path_animation { */
-/*   0%   { opacity: 0; } */
-/*   100% { opacity: 1; } */
-/* } */
+/*
+ *  ADDITIONAL ARTICLE STYLES
+ */
 
-/*path:active
-{ 
-  stroke:#FFCC00;
-  stroke-width:1;
-  fill-opacity: 0.5;
-}*/
+#other-articles {
+    margin-top: 50px;
+}
+
+.article-column {
+    font-family: Georgia, serif;
+    /* text-align: center; */
+    width: 33%;
+    float: left;
+}
+
+.article-column .column-inner {
+    width: 85%;
+    margin: 0 auto;
+    border-top: 3px solid #333;
+}
+
+.article-column h3 {
+    font-family: Crimson, serif;
+    font-size: 1.4em;
+    padding-top: 7px;
+    margin-bottom: 0;
+    border-top: 1px solid #333;
+    margin-top: 2px;
+    border-bottom: 1px double #333;
+    border-bottom-style: double;
+}
+
+.article-column a {
+    color: #ba0600;
+}
